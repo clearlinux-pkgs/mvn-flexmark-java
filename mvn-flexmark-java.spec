@@ -4,7 +4,7 @@
 #
 Name     : mvn-flexmark-java
 Version  : 0.18.4
-Release  : 1
+Release  : 2
 URL      : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source0  : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.18.4/flexmark-all-0.18.4.jar
