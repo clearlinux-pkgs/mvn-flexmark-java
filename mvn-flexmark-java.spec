@@ -4,7 +4,7 @@
 #
 Name     : mvn-flexmark-java
 Version  : 0.18.4
-Release  : 5
+Release  : 6
 URL      : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source0  : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.18.4/flexmark-all-0.18.4.jar
@@ -139,18 +139,20 @@ Source129  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profil
 Source130  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.pom
 Source131  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
 Source132  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
-Source133  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
-Source134  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
-Source135  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
-Source136  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
-Source137  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
-Source138  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
-Source139  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
-Source140  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
-Source141  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
-Source142  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
-Source143  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
-Source144  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+Source133  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.jar
+Source134  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.pom
+Source135  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+Source136  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+Source137  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
+Source138  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
+Source139  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+Source140  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+Source141  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
+Source142  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
+Source143  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+Source144  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+Source145  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+Source146  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -583,41 +585,47 @@ cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4
 cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56
+cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56
+cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
+cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56
-cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
+cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56
-cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
+cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56
-cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
+cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56
-cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
+cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+cp %{SOURCE145} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+cp %{SOURCE146} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 
 
 %files
@@ -757,6 +765,8 @@ cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.34.56/flexmark-test-util-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
