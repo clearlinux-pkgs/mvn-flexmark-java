@@ -4,7 +4,7 @@
 #
 Name     : mvn-flexmark-java
 Version  : 0.18.4
-Release  : 4
+Release  : 5
 URL      : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source0  : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.18.4/flexmark-all-0.18.4.jar
@@ -13,70 +13,144 @@ Source3  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.34
 Source4  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.34.56/flexmark-all-0.34.56.pom
 Source5  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4/flexmark-ext-abbreviation-0.18.4.jar
 Source6  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4/flexmark-ext-abbreviation-0.18.4.pom
-Source7  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.jar
-Source8  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.pom
-Source9  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.jar
-Source10  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.pom
-Source11  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.jar
-Source12  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.pom
-Source13  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.jar
-Source14  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.pom
-Source15  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.jar
-Source16  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.pom
-Source17  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.jar
-Source18  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.pom
-Source19  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.jar
-Source20  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.pom
-Source21  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.jar
-Source22  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.pom
-Source23  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.jar
-Source24  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.pom
-Source25  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.jar
-Source26  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.pom
-Source27  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.jar
-Source28  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.pom
-Source29  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.jar
-Source30  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.pom
-Source31  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.jar
-Source32  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.pom
-Source33  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.jar
-Source34  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.pom
-Source35  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.jar
-Source36  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.pom
-Source37  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.jar
-Source38  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.pom
-Source39  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.jar
-Source40  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.pom
-Source41  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.jar
-Source42  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.pom
-Source43  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.jar
-Source44  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.pom
-Source45  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.jar
-Source46  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.pom
-Source47  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.jar
-Source48  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.pom
-Source49  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.jar
-Source50  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.pom
-Source51  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
-Source52  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
-Source53  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
-Source54  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
-Source55  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
-Source56  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
-Source57  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
-Source58  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
-Source59  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
-Source60  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
-Source61  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
-Source62  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
-Source63  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
-Source64  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
-Source65  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
-Source66  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
-Source67  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
-Source68  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
-Source69  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
-Source70  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+Source7  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.jar
+Source8  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.pom
+Source9  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.jar
+Source10  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.pom
+Source11  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.jar
+Source12  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.pom
+Source13  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.jar
+Source14  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.pom
+Source15  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.jar
+Source16  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.pom
+Source17  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.jar
+Source18  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.pom
+Source19  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.jar
+Source20  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.pom
+Source21  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.jar
+Source22  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.pom
+Source23  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.jar
+Source24  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.pom
+Source25  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.jar
+Source26  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.pom
+Source27  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.jar
+Source28  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.pom
+Source29  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.jar
+Source30  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.pom
+Source31  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.jar
+Source32  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.pom
+Source33  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.jar
+Source34  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.pom
+Source35  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.jar
+Source36  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.pom
+Source37  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.jar
+Source38  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.pom
+Source39  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.jar
+Source40  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.pom
+Source41  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.jar
+Source42  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.pom
+Source43  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.jar
+Source44  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.pom
+Source45  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.jar
+Source46  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.pom
+Source47  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.jar
+Source48  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.pom
+Source49  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.jar
+Source50  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.pom
+Source51  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.jar
+Source52  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.pom
+Source53  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.jar
+Source54  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.pom
+Source55  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.jar
+Source56  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.pom
+Source57  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.jar
+Source58  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.pom
+Source59  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.jar
+Source60  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.pom
+Source61  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.jar
+Source62  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.pom
+Source63  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.jar
+Source64  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.pom
+Source65  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.jar
+Source66  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.pom
+Source67  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.jar
+Source68  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.pom
+Source69  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.jar
+Source70  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.pom
+Source71  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.jar
+Source72  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.pom
+Source73  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.jar
+Source74  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.pom
+Source75  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.jar
+Source76  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.pom
+Source77  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.jar
+Source78  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.pom
+Source79  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.jar
+Source80  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.pom
+Source81  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.jar
+Source82  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.pom
+Source83  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.jar
+Source84  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.pom
+Source85  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.jar
+Source86  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.pom
+Source87  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.jar
+Source88  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.pom
+Source89  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.jar
+Source90  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.pom
+Source91  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.jar
+Source92  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.pom
+Source93  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.jar
+Source94  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.pom
+Source95  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.jar
+Source96  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.pom
+Source97  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.jar
+Source98  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.pom
+Source99  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.jar
+Source100  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.pom
+Source101  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.jar
+Source102  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.pom
+Source103  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.jar
+Source104  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.pom
+Source105  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.jar
+Source106  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.pom
+Source107  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.jar
+Source108  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.pom
+Source109  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.jar
+Source110  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.pom
+Source111  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.jar
+Source112  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.pom
+Source113  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
+Source114  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
+Source115  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.jar
+Source116  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.pom
+Source117  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
+Source118  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
+Source119  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
+Source120  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+Source121  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.jar
+Source122  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.pom
+Source123  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
+Source124  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+Source125  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.jar
+Source126  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.pom
+Source127  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
+Source128  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+Source129  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.jar
+Source130  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.pom
+Source131  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
+Source132  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
+Source133  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+Source134  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+Source135  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
+Source136  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
+Source137  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+Source138  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+Source139  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
+Source140  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
+Source141  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+Source142  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+Source143  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+Source144  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -131,197 +205,419 @@ cp %{SOURCE5} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/fl
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4
 cp %{SOURCE6} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4/flexmark-ext-abbreviation-0.18.4.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4
-cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56
+cp %{SOURCE7} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56
+cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56
+cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56
+cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4
-cp %{SOURCE8} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.pom
+cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4
+cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56
+cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56
+cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4
-cp %{SOURCE9} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.jar
+cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4
-cp %{SOURCE10} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.pom
+cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56
+cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56
+cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56
+cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56
+cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4
-cp %{SOURCE11} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.jar
+cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4
-cp %{SOURCE12} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.pom
+cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56
+cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56
+cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4
-cp %{SOURCE13} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.jar
+cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4
-cp %{SOURCE14} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.pom
+cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56
+cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56
+cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4
-cp %{SOURCE15} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.jar
+cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4
-cp %{SOURCE16} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.pom
+cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56
+cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56
+cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56
+cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56
+cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4
-cp %{SOURCE17} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.jar
+cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4
-cp %{SOURCE18} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.pom
+cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56
+cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56
+cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4
-cp %{SOURCE19} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.jar
+cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4
-cp %{SOURCE20} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.pom
+cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56
+cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56
+cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56
+cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56
+cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4
-cp %{SOURCE21} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.jar
+cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4
-cp %{SOURCE22} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.pom
+cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56
+cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56
+cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4
-cp %{SOURCE23} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.jar
+cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4
-cp %{SOURCE24} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.pom
+cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56
+cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56
+cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4
-cp %{SOURCE25} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.jar
+cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4
-cp %{SOURCE26} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.pom
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4
-cp %{SOURCE27} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4
-cp %{SOURCE28} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4
-cp %{SOURCE29} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.jar
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4
-cp %{SOURCE30} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4
-cp %{SOURCE31} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.jar
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4
-cp %{SOURCE32} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.pom
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56
+cp %{SOURCE71} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56
+cp %{SOURCE72} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56
+cp %{SOURCE73} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56
+cp %{SOURCE74} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56
+cp %{SOURCE75} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56
+cp %{SOURCE76} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4
-cp %{SOURCE33} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.jar
+cp %{SOURCE77} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4
-cp %{SOURCE34} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.pom
+cp %{SOURCE78} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4
-cp %{SOURCE35} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.jar
+cp %{SOURCE79} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4
-cp %{SOURCE36} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.pom
+cp %{SOURCE80} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56
+cp %{SOURCE81} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56
+cp %{SOURCE82} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4
-cp %{SOURCE37} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.jar
+cp %{SOURCE83} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4
-cp %{SOURCE38} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.pom
+cp %{SOURCE84} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56
+cp %{SOURCE85} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56
+cp %{SOURCE86} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4
-cp %{SOURCE39} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.jar
+cp %{SOURCE87} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4
-cp %{SOURCE40} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.pom
+cp %{SOURCE88} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56
+cp %{SOURCE89} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56
+cp %{SOURCE90} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4
-cp %{SOURCE41} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.jar
+cp %{SOURCE91} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4
-cp %{SOURCE42} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.pom
+cp %{SOURCE92} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56
+cp %{SOURCE93} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56
+cp %{SOURCE94} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4
-cp %{SOURCE43} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.jar
+cp %{SOURCE95} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4
-cp %{SOURCE44} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.pom
+cp %{SOURCE96} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56
+cp %{SOURCE97} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56
+cp %{SOURCE98} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4
-cp %{SOURCE45} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.jar
+cp %{SOURCE99} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4
-cp %{SOURCE46} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.pom
+cp %{SOURCE100} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56
+cp %{SOURCE101} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56
+cp %{SOURCE102} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4
-cp %{SOURCE47} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.jar
+cp %{SOURCE103} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4
-cp %{SOURCE48} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.pom
+cp %{SOURCE104} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56
+cp %{SOURCE105} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56
+cp %{SOURCE106} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56
+cp %{SOURCE107} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56
+cp %{SOURCE108} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4
-cp %{SOURCE49} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.jar
+cp %{SOURCE109} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4
-cp %{SOURCE50} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.pom
+cp %{SOURCE110} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56
+cp %{SOURCE111} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56
+cp %{SOURCE112} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4
-cp %{SOURCE51} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
+cp %{SOURCE113} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4
-cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
+cp %{SOURCE114} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56
+cp %{SOURCE115} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56
+cp %{SOURCE116} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4
-cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
+cp %{SOURCE117} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
+cp %{SOURCE118} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
+cp %{SOURCE119} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+cp %{SOURCE120} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56
+cp %{SOURCE121} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56
+cp %{SOURCE122} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
+cp %{SOURCE123} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+cp %{SOURCE124} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56
+cp %{SOURCE125} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56
+cp %{SOURCE126} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
+cp %{SOURCE127} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+cp %{SOURCE128} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56
+cp %{SOURCE129} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56
+cp %{SOURCE130} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
+cp %{SOURCE131} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
+cp %{SOURCE132} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+cp %{SOURCE133} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+cp %{SOURCE134} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56
+cp %{SOURCE135} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56
+cp %{SOURCE136} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+cp %{SOURCE137} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+cp %{SOURCE138} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56
+cp %{SOURCE139} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56
+cp %{SOURCE140} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+cp %{SOURCE141} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+cp %{SOURCE142} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+cp %{SOURCE143} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+cp %{SOURCE144} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 
 
 %files
@@ -335,66 +631,140 @@ cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/f
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-all/0.34.56/flexmark-all-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4/flexmark-ext-abbreviation-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.18.4/flexmark-ext-abbreviation-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-abbreviation/0.34.56/flexmark-ext-abbreviation-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-admonition/0.34.56/flexmark-ext-admonition-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.18.4/flexmark-ext-anchorlink-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-anchorlink/0.34.56/flexmark-ext-anchorlink-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.18.4/flexmark-ext-aside-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-aside/0.34.56/flexmark-ext-aside-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-attributes/0.34.56/flexmark-ext-attributes-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.18.4/flexmark-ext-autolink-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-autolink/0.34.56/flexmark-ext-autolink-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.18.4/flexmark-ext-definition-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-definition/0.34.56/flexmark-ext-definition-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.18.4/flexmark-ext-emoji-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-emoji/0.34.56/flexmark-ext-emoji-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-enumerated-reference/0.34.56/flexmark-ext-enumerated-reference-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.18.4/flexmark-ext-escaped-character-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-escaped-character/0.34.56/flexmark-ext-escaped-character-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.18.4/flexmark-ext-footnotes-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-footnotes/0.34.56/flexmark-ext-footnotes-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-issues/0.34.56/flexmark-ext-gfm-issues-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.18.4/flexmark-ext-gfm-strikethrough-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.34.56/flexmark-ext-gfm-strikethrough-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.18.4/flexmark-ext-gfm-tables-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.34.56/flexmark-ext-gfm-tables-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.18.4/flexmark-ext-gfm-tasklist-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.34.56/flexmark-ext-gfm-tasklist-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gfm-users/0.34.56/flexmark-ext-gfm-users-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-gitlab/0.34.56/flexmark-ext-gitlab-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.18.4/flexmark-ext-ins-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-ins/0.34.56/flexmark-ext-ins-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.18.4/flexmark-ext-jekyll-front-matter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-front-matter/0.34.56/flexmark-ext-jekyll-front-matter-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.18.4/flexmark-ext-jekyll-tag-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-jekyll-tag/0.34.56/flexmark-ext-jekyll-tag-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-macros/0.34.56/flexmark-ext-macros-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-media-tags/0.34.56/flexmark-ext-media-tags-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-spec-example/0.18.4/flexmark-ext-spec-example-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.18.4/flexmark-ext-superscript-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-superscript/0.34.56/flexmark-ext-superscript-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.18.4/flexmark-ext-tables-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-tables/0.34.56/flexmark-ext-tables-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.18.4/flexmark-ext-toc-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-toc/0.34.56/flexmark-ext-toc-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.18.4/flexmark-ext-typographic-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-typographic/0.34.56/flexmark-ext-typographic-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.18.4/flexmark-ext-wikilink-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-wikilink/0.34.56/flexmark-ext-wikilink-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.18.4/flexmark-ext-xwiki-macros-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-xwiki-macros/0.34.56/flexmark-ext-xwiki-macros-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.18.4/flexmark-ext-yaml-front-matter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.34.56/flexmark-ext-yaml-front-matter-0.34.56.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-ext-youtube-embedded/0.34.56/flexmark-ext-youtube-embedded-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.18.4/flexmark-formatter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-formatter/0.34.56/flexmark-formatter-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.34.56/flexmark-html-parser-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.34.56/flexmark-jira-converter-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.34.56/flexmark-pdf-converter-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.34.56/flexmark-profile-pegdown-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.34.56/flexmark-util-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.jar
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.34.56/flexmark-youtrack-converter-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
