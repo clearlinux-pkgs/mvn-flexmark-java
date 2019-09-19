@@ -4,7 +4,7 @@
 #
 Name     : mvn-flexmark-java
 Version  : 0.18.4
-Release  : 3
+Release  : 4
 URL      : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source0  : https://github.com/vsch/flexmark-java/archive/0.18.4.tar.gz
 Source1  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-all/0.18.4/flexmark-all-0.18.4.jar
@@ -60,22 +60,23 @@ Source50  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatt
 Source51  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
 Source52  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
 Source53  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
-Source54  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
-Source55  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
-Source56  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
-Source57  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
-Source58  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
-Source59  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
-Source60  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
-Source61  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
-Source62  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
-Source63  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
-Source64  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
-Source65  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
-Source66  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
-Source67  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
-Source68  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
-Source69  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+Source54  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
+Source55  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
+Source56  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+Source57  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
+Source58  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+Source59  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
+Source60  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+Source61  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
+Source62  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
+Source63  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+Source64  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+Source65  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+Source66  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+Source67  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+Source68  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+Source69  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+Source70  : https://repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -271,53 +272,56 @@ cp %{SOURCE52} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/f
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4
 cp %{SOURCE53} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
 
-mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4
-cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56
+cp %{SOURCE54} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4
-cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
+cp %{SOURCE55} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
+
+mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4
+cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4
-cp %{SOURCE56} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
+cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4
-cp %{SOURCE57} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
+cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4
-cp %{SOURCE58} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
+cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4
-cp %{SOURCE59} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
+cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-profile-pegdown/0.18.4/flexmark-profile-pegdown-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4
-cp %{SOURCE60} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
+cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4
-cp %{SOURCE61} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
+cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-test-util/0.18.4/flexmark-test-util-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE62} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
+cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4
-cp %{SOURCE63} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
+cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-util/0.18.4/flexmark-util-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE64} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
+cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4
-cp %{SOURCE65} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
+cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-youtrack-converter/0.18.4/flexmark-youtrack-converter-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE66} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
+cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4
-cp %{SOURCE67} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
+cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.18.4/flexmark-0.18.4.pom
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE68} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
+cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.jar
 
 mkdir -p %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56
-cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
+cp %{SOURCE70} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark/0.34.56/flexmark-0.34.56.pom
 
 
 %files
@@ -378,6 +382,7 @@ cp %{SOURCE69} %{buildroot}/usr/share/java/.m2/repository/com/vladsch/flexmark/f
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-html-parser/0.18.4/flexmark-html-parser-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.18.4/flexmark-java-0.18.4.pom
+/usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-java/0.34.56/flexmark-java-0.34.56.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.jar
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-jira-converter/0.18.4/flexmark-jira-converter-0.18.4.pom
 /usr/share/java/.m2/repository/com/vladsch/flexmark/flexmark-pdf-converter/0.18.4/flexmark-pdf-converter-0.18.4.jar
